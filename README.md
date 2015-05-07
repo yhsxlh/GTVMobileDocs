@@ -22,7 +22,7 @@ GTVHttpResponse:
       message:"invalid request signature"
   },
   result:{
-    /*json object */
+    /*json object returned by server*/
   }
 }
 ```
