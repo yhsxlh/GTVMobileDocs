@@ -7,7 +7,7 @@ GTVHttpRequest:
   method:"login",
   signature:"970d3198be85389ed7807d790370610f56cf71af",
   parameter:{
-    userName:"user_name",
+    account:"account",
     password:"password"
   }
 }
