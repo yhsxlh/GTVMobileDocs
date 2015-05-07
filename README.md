@@ -1,23 +1,26 @@
 
 
-GTVHttpRequest:
+请求对象
+GTVHttpRequest
+
 ``` javascript
 {
-  version:1.0,
-  module:"user",
-  method:"login",
-  signature:"970d3198be85389ed7807d790370610f56cf71af",
-  parameter:{
+  version:1.0,      // 接口版本
+  module:"user",    // 模块名称
+  method:"login",   // 方法名
+  signature:"970d3198be85389ed7807d790370610f56cf71af", // 签名:用于验证客户端有权访问接口
+  parameter:{ // 传递给服务器的参数，根据method的不同，parameters里面的内容不同.
     account:"account",
     password:"password"
   }
 }
 ```
 
+响应对象
 GTVHttpResponse:
 ```javascript
 {
-  isSuccess:ture,
+  isSuccess:ture, // 如果请求成功，result为服务器返回的响应结果。如果请求失败,error为服务器返回的错误信息。
   error: {
       code:225,
       message:"invalid request signature",
