@@ -3,6 +3,7 @@
 GTVHttpRequest:
 ``` javascript
 {
+  version:1.0
   module:"user",
   method:"login",
   signature:"970d3198be85389ed7807d790370610f56cf71af",
