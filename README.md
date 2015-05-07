@@ -20,7 +20,7 @@ GTVHttpRequest
 GTVHttpResponse:
 ```javascript
 {
-  isSuccess:ture, // 如果请求成功，result为服务器返回的响应结果。如果请求失败,error为服务器返回的错误信息。
+  isSuccess:ture, // 如果请求成功，result为服务器返回的响应结果。如果服务器发生错误,error为服务器返回的错误信息。
   error: {
       code:225,
       message:"invalid request signature",
