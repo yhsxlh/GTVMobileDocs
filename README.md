@@ -3,7 +3,7 @@
 GTVHttpRequest:
 ``` javascript
 {
-  version:1.0
+  version:1.0,
   module:"user",
   method:"login",
   signature:"970d3198be85389ed7807d790370610f56cf71af",
@@ -19,8 +19,9 @@ GTVHttpResponse:
 {
   isSuccess:ture,
   error: {
-      code:225
-      message:"invalid request signature"
+      code:225,
+      message:"invalid request signature",
+      url:"http://www.gtv.com/mobile/ios/help.html"
   },
   result:{
     /*json object returned by server*/
