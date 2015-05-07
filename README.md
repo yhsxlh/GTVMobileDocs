@@ -19,7 +19,7 @@ GTVHttpResponse:
   isSuccess:ture,
   error: {
       code:225
-      message:"invalid request parameters"
+      message:"invalid request signature"
   },
   result:{
     /*json object */
