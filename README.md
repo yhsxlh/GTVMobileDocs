@@ -31,5 +31,7 @@ GTVHttpResponse:
   }
 }
 ```
+---
 
+参考链接:
 > [来自HeroKu的HTTP API 设计指南(中文版)](http://get.jobdeer.com/343.get)
