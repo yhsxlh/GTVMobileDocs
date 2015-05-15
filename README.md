@@ -5,7 +5,13 @@ GTVHttpRequest
 
 ``` javascript
 {
-  version:1.0,      // 接口版本
+  client: {
+    os:"iOS",
+    version:"8.1.3",
+    resolution:"640x1136",
+    udid:"d4b5f29bb8a3bda6ddffb3d5f2e48688d07b350a"
+  },
+  iVersion:1.0,      // 接口版本
   module:"user",    // 模块名称
   method:"login",   // 方法名
   signature:"970d3198be85389ed7807d790370610f56cf71af", // 签名:用于验证客户端有权访问接口
